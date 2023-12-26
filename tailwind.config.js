@@ -13,7 +13,11 @@ module.exports = {
       },
       colors: {
         deepblack:'#171717',
+        grey:'#D9D9D9'
     },
+    boxShadow: {
+      custom_shadow: '0px 0px 30px 0px rgba(23, 23, 23, 0.06)',
+    }
     },
   },
   plugins: [],
