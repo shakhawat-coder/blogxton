@@ -17,7 +17,10 @@ module.exports = {
     },
     boxShadow: {
       custom_shadow: '0px 0px 30px 0px rgba(23, 23, 23, 0.06)',
-    }
+    },
+    backgroundImage: {
+      'newslwtterBg': "url('./images/newsletterBg.png')",
+    },
     },
   },
   plugins: [],
