@@ -29,7 +29,7 @@
 
 <body>
     <!-- ===================top header============= -->
-    <header id="header" class="px-[120px] py-[15px]">
+    <!-- <header id="header" class="px-[120px] py-[15px] hidden lg:block">
         <div class="mx-auto max-w-container_fluid">
             <div class="flex justify-between">
                 <div class="social flex gap-x-[43px]">
@@ -55,9 +55,9 @@
             </div>
         </div>
 
-    </header>
+    </header> -->
     <!-- ===============Nav section============ -->
-    <nav class="bg-gradient-to-r from-[rgba(145,112,144,0.05)] to-[rgba(222,139,118,0.05)] py-5 px-2">
+    <!-- <nav class="bg-gradient-to-r from-[rgba(145,112,144,0.05)] to-[rgba(222,139,118,0.05)] py-5 px-2">
         <div class="mx-auto max-w-container">
             <div class="flex items-center justify-between">
                 <div class="flex items-center">
@@ -86,20 +86,20 @@
                 </div>
             </div>
         </div>
-    </nav>
+    </nav> -->
     <!-- =====================banner section=================== -->
     <section id="banner">
         <div class="mx-auto max-w-container_fluid">
-            <div class="flex">
-                <div class="w-[1470px] relative">
+            <div class="md:flex">
+                <div class="max-w-full lg:w-[1470px] relative">
                     <div class="w-full h-[744px] bg-gradient-to-b from-[rgba(32,32,32,0)] to-[rgba(32,32,32,0.94)]">
                         <picture>,
                             <img src="" alt="">
                         </picture>
                     </div>
-                    <div class="absolute bottom-[62px] left-[150px]">
+                    <div class="absolute bottom-[62px] lg:left-[150px]">
                         <h2
-                            class="pb-10 font-prompt text-[40px] max-w-[749px] font-semibold capitalize text-white leading-[55px] tracking-[.8px]">
+                            class="pb-10 font-prompt text-[35px] max-w-[749px] font-semibold capitalize text-white leading-[55px] tracking-[.8px]">
                             Our Begin Now To Being What You Will Be Hereafter.</h2>
                         <div class="flex space-x-11">
                             <span
@@ -114,7 +114,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="max-w-[450px]">
+                <div class="lg:max-w-[450px]">
                     <div class="pt-[50px] border-t border-[rgba(32,32,32,0.05)]">
                         <div class="px-[50px]">
                             <a href="#"
@@ -176,7 +176,7 @@
     <section id="popular_story" class="mb-[110px]">
         <div class="mx-auto max-w-container">
             <!-- ==============section header============ -->
-            <div class="pt-[110px] pb-[60px] flex justify-between items-center">
+            <div class="px-3 pt-[110px] pb-[60px] flex justify-between items-center">
                 <div class="flex items-center gap-2">
                     <h3
                         class="font-prompt text-[28px] max-w-[749px] font-medium capitalize text-deepblack leading-[55px]">
@@ -187,17 +187,17 @@
                         <img src="./images/headerShape.png" alt="">
                     </picture>
                 </div>
-                <div class="relative">
+                <div class="relative hidden sm:block">
                     <a class="font-prompt text-lg max-w-[749px] font-medium capitalize bg-gradient-to-r from-[#917090] to-[#DE8B76] text-transparent bg-clip-text"
                         href="#">view post <i class="fa-light fa-arrow-right-long"></i></a>
                     <img class="absolute top-0 -left-5" src="./images/header.svg" alt="">
                 </div>
             </div>
             <!-- =======================? -->
-            <div class="story_wrapper grid md:grid-cols-3 space-x-[30px]">
+            <div class="story_wrapper px-3 grid grid-cols-1 space-y-8 lg:space-y-0 lg:grid-cols-3 lg:space-x-[30px]">
                 <div class="col-span-2 space-y-[60px]">
-                    <a href="#" class="flex ps-5 py-[15px] shadow-custom_shadow items-center gap-x-[30px] ">
-                        <div class="w-[250px] h-[190px] bg-grey p-3">
+                    <a href="#" class="sm:flex ps-5 py-[15px] shadow-custom_shadow items-center gap-x-[30px] ">
+                        <div class="w-full sm:w-[250px] h-[190px] bg-grey mb-5 sm:mb-0 p-3 ">
                             <picture>
                                 <img class="border w-full h-full" src="" alt="">
                             </picture>
@@ -223,8 +223,8 @@
                                 porttitor exten vitae felis finibus at rhoncus mauris.</h4>
                         </div>
                     </a>
-                    <a href="#" class="flex items-center gap-x-[30px] ps-5 py-[15px] shadow-custom_shadow">
-                        <div class="w-[250px] h-[190px] bg-grey p-3">
+                    <a href="#" class="sm:flex ps-5 py-[15px] shadow-custom_shadow items-center gap-x-[30px] ">
+                        <div class="w-full sm:w-[250px] h-[190px] bg-grey mb-5 sm:mb-0 p-3 ">
                             <picture>
                                 <img class="border w-full h-full" src="" alt="">
                             </picture>
@@ -250,8 +250,8 @@
                                 Quisque scelon sque egestas nunc sed interdum Pellente.</h4>
                         </div>
                     </a>
-                    <a href="#" class="flex items-center gap-x-[30px] ps-5 py-[15px] shadow-custom_shadow">
-                        <div class="w-[250px] h-[190px] bg-grey p-3">
+                    <a href="#" class="sm:flex ps-5 py-[15px] shadow-custom_shadow items-center gap-x-[30px] ">
+                        <div class="w-full sm:w-[250px] h-[190px] bg-grey mb-5 sm:mb-0 p-3 ">
                             <picture>
                                 <img class="border w-full h-full" src="" alt="">
                             </picture>
@@ -277,8 +277,8 @@
                                 porta lacus velga maximus Integer tristique eget lectus.</h4>
                         </div>
                     </a>
-                    <a href="#" class="flex items-center gap-x-[30px] ps-5 py-[15px] shadow-custom_shadow">
-                        <div class="w-[250px] h-[190px] bg-grey p-3">
+                    <a href="#" class="sm:flex ps-5 py-[15px] shadow-custom_shadow items-center gap-x-[30px] ">
+                        <div class="w-full sm:w-[250px] h-[190px] bg-grey mb-5 sm:mb-0 p-3 ">
                             <picture>
                                 <img class="border w-full h-full" src="" alt="">
                             </picture>
@@ -400,7 +400,7 @@
         </div>
     </section>
     <!-- =================Weekly Best story================== -->
-    <section id="weekly_best" class="mb-[110px]">
+    <section id="weekly_best" class="mb-[110px] px-3 xl:px-0">
         <div class="mx-auto max-w-container">
             <!-- ==============section header============ -->
             <div class="pb-[60px] flex justify-between items-center">
@@ -414,7 +414,7 @@
                         <img src="./images/headerShape.png" alt="">
                     </picture>
                 </div>
-                <div>
+                <div class="hidden md:block">
                     <select id="select" name="select"
                         class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none">
                         <option value="option1">This Week</option>
@@ -424,44 +424,45 @@
                 </div>
             </div>
             <!-- =======================? -->
-            <div class="grid grid-cols-2 space-x-[30px]">
+            <div class="grid grid-cols-1 space-y-5 sm:space-y-0 sm:grid-cols-2 sm:space-x-[10px] xl:space-x-[30px]">
                 <div class="border">
                     <div class="h-[300px] mb-[45px] w-full overflow-hidden bg-grey">
                         <picture>
                             <img class="w-full h-full object-cover" src="" alt="">
                         </picture>
                     </div>
-                    <div class="px-[30px]">
-                        <a class="block pb-[30px] font-prompt text-[30px] text-center font-medium capitalize text-deepblack leading-[47px]"
+                    <div class=" px-3 lg:px-[30px]">
+                        <a class="block pb-[30px] font-prompt text-xl lg:text-[30px] md:text-center font-medium capitalize text-deepblack leading-normal lg:leading-[47px]"
                             href="#">Sed lectus duitotan tristiqu eitato eleifend on blandit necolus.</a>
-                        <p class="font-inter text-[14px] text-center font-normal text-[#66707E] leading-8">Aliquam erat
+                        <p class="font-inter text-[14px] md:text-center font-normal text-[#66707E] leading-8">Aliquam
+                            erat
                             volutpat. Ut scelerisque elementum nisi, anedoi old town roai fermentumon
                             odiona gouvikoi tincidunt vel. Proin velit estear elemen thum</p>
-                        <div class=" flex justify-center space-x-11">
+                        <div class=" flex md:justify-center space-x-4 md:space-x-11">
                             <span
-                                class="relative after:content-[''] after:absolute after:h-[10px] after:w-[2px] after:bg-gradient-to-r from-[#917090] to-[#DE8B76] after:bottom-6 after:-right-6 font-inter text-[13px] font-medium capitalize text-[#9B9B9B] leading-[55px]">By,
+                                class="relative after:content-[''] after:absolute md:after:h-[10px] after:w-[2px] after:bg-gradient-to-r from-[#917090] to-[#DE8B76] after:bottom-6 after:-right-6 font-inter text-[13px] font-medium capitalize text-[#9B9B9B] leading-[55px]">By,
                                 <span class="text-deepblack">Watson</span></span>
                             <span
-                                class="relative after:content-[''] after:absolute after:h-[10px] after:w-[2px] after:bg-gradient-to-r from-[#917090] to-[#DE8B76] after:bottom-6 after:-right-6 font-inter text-[13px] font-medium capitalize text-[#9B9B9B] leading-[55px]">12
+                                class="relative after:content-[''] after:absolute md:after:h-[10px] after:w-[2px] after:bg-gradient-to-r from-[#917090] to-[#DE8B76] after:bottom-6 after:-right-6 font-inter text-[13px] font-medium capitalize text-[#9B9B9B] leading-[55px]">12
                                 Dec, 2023</span>
                             <span class="font-inter text-[13px] font-medium capitalize text-[#9B9B9B] leading-[55px]"><i
-                                    class="fa-sharp fa-solid fa-comments pr-2"></i> 50 Comment</span>
+                                    class="fa-sharp fa-solid fa-comments pr-2 "></i> 50 Comment</span>
                         </div>
                     </div>
                 </div>
-                <div class="grid grid-cols-2 space-x-[30px]">
+                <div class="grid grid-cols-1 sm:grid-cols-2 sm:space-x-[10px] xl:space-x-[30px]">
                     <div class="">
-                        <div class="mb-[30px]">
+                        <div class="mb-[30px] ">
                             <div class="h-[152px] w-full overflow-hidden bg-grey">
                                 <picture>
                                     <img class="w-full h-full object-cover" src="" alt="">
                                 </picture>
                             </div>
-                            <div class="px-[20px] py-[25px] shadow-custom_shadow">
+                            <div class="px-2 lg:px-[20px] py-[25px] shadow-custom_shadow">
                                 <span
                                     class="font-inter text-[13px] font-medium capitalize text-[#9B9B9B] leading-normal">By,
                                     <span class="text-deepblack">Watson</span></span>
-                                <a class="block pt-4 font-prompt text-[18px] font-medium capitalize text-deepblack leading-normal"
+                                <a class="block pt-4 font-prompt text-sm md:text-[18px] h-14 md:h-[70px] overflow-hidden font-medium capitalize text-deepblack leading-normal"
                                     href="#">Roaming the World Theni Globe-Trotter.</a>
                             </div>
                         </div>
@@ -471,27 +472,27 @@
                                     <img class="w-full h-full object-cover" src="" alt="">
                                 </picture>
                             </div>
-                            <div class="px-[20px] py-[25px] shadow-custom_shadow">
+                            <div class="px-2 lg:px-[20px] py-[25px] shadow-custom_shadow">
                                 <span
                                     class="font-inter text-[13px] font-medium capitalize text-[#9B9B9B] leading-normal">By,
                                     <span class="text-deepblack">Watson</span></span>
-                                <a class="block pt-4 font-prompt text-[18px] font-medium capitalize text-deepblack leading-normal"
+                                <a class="block pt-4 font-prompt text-sm md:text-[18px] h-14 md:h-[70px] overflow-hidden font-medium capitalize text-deepblack leading-normal"
                                     href="#">Maximizing SEO for Your Blog Posts all.</a>
                             </div>
                         </div>
                     </div>
                     <div class="">
-                        <div class="mb-[30px]">
+                        <div class="mb-[30px] ">
                             <div class="h-[152px] w-full overflow-hidden bg-grey">
                                 <picture>
                                     <img class="w-full h-full object-cover" src="" alt="">
                                 </picture>
                             </div>
-                            <div class="px-[20px] py-[25px] shadow-custom_shadow">
+                            <div class="px-2 lg:px-[20px] py-[25px] shadow-custom_shadow">
                                 <span
                                     class="font-inter text-[13px] font-medium capitalize text-[#9B9B9B] leading-normal">By,
                                     <span class="text-deepblack">Watson</span></span>
-                                <a class="block pt-4 font-prompt text-[18px] font-medium capitalize text-deepblack leading-normal"
+                                <a class="block pt-4 font-prompt text-sm md:text-[18px] h-14 md:h-[70px] overflow-hidden font-medium capitalize text-deepblack leading-normal"
                                     href="#">Roaming onego Rambling On the Road.</a>
                             </div>
                         </div>
@@ -501,11 +502,11 @@
                                     <img class="w-full h-full object-cover" src="" alt="">
                                 </picture>
                             </div>
-                            <div class="px-[20px] py-[25px] shadow-custom_shadow">
+                            <div class="px-2 lg:px-[20px] py-[25px] shadow-custom_shadow">
                                 <span
                                     class="font-inter text-[13px] font-medium capitalize text-[#9B9B9B] leading-normal">By,
                                     <span class="text-deepblack">Watson</span></span>
-                                <a class="block pt-4 font-prompt text-[18px] font-medium capitalize text-deepblack leading-normal"
+                                <a class="block pt-4 font-prompt text-sm md:text-[18px] h-14 md:h-[70px] overflow-hidden font-medium capitalize text-deepblack leading-normal"
                                     href="#">The Benefits offest Guest Blogging post.</a>
                             </div>
                         </div>
@@ -513,7 +514,7 @@
                 </div>
             </div>
             <!-- =======================? -->
-            <div class="grid grid-cols-3 space-x-[30px] mt-10">
+            <div class="grid grid-cols-1 space-y-5 sm:space-y-0 sm:grid-cols-3 sm:space-x-[30px] mt-10">
                 <div class="mb-[30px]">
                     <div class="h-[200px] w-full overflow-hidden bg-grey">
                         <picture>
@@ -579,18 +580,18 @@
     <section id="newsletter">
         <div class="mx-auto max-w-container_fluid ">
             <div class="bg-newslwtterBg bg-no-repeat bg-cover bg-center px-10 py-[110px]">
-                <div class="flex justify-between items-center bg-[#de8b7633] py-24 px-28">
+                <div class="lg:flex justify-between items-center bg-[#de8b7633] px-5 py-12 xl:py-24 xl:px-28">
                     <h2
-                        class="font-prompt text-[40px] max-w-[700px] font-semibold capitalize text-deepblack leading-[60px]">
+                        class="font-prompt pb-3 xl:pb-0 text-2xl lg:text-3xl xlg:text-[40px] max-w-[700px] font-semibold capitalize text-deepblack leading-normal lg:leading-[60px]">
                         Get the best blog stories into your inbox <a
                             class="bg-gradient-to-r from-[#917090] to-[#DE8B76] text-transparent bg-clip-text"
                             href="#">Connect Us</a> now.</h2>
-                    <form class="relative" action="">
-                        <input
-                            class="w-[600px] h-14 px-[30px] bg-white rounded-full outline-0 text-[rgba(16,16,16,0.5)]"
+                    <form class="relative max-w-[570px] lg:w-[600px]" action="">
+                        <input class="w-full  h-14 px-[30px] bg-white rounded-full outline-0 text-[rgba(16,16,16,0.5)]"
                             type="email" placeholder="Enter Your Email...">
                         <button
-                            class="absolute right-10 top-1/2 translate-y-[-50%] bg-gradient-to-r from-[#917090] to-[#DE8B76] text-transparent bg-clip-text uppercase">Subscribe
+                            class="absolute flex items-center right-10 top-1/2 translate-y-[-50%] bg-gradient-to-r from-[#917090] to-[#DE8B76] text-transparent bg-clip-text uppercase"><span
+                                class="hidden md:block">Subscribe</span>
                             <i
                                 class="fa-sharp fa-solid fa-paper-plane-top fa-fade ps-2 bg-gradient-to-r from-[#917090] to-[#DE8B76] text-transparent bg-clip-text"></i></button>
                     </form>
@@ -1318,6 +1319,7 @@
                     class="font-prompt text-[13px] py-6 border-t text-[#121418] text-opacity-50 font-normal capitalize leading-normal text-center">
                     © 2023 Blogxton is Proudly Powered by Egens Lab.</p>
             </div>
+
         </div>
     </footer>
 </body>
